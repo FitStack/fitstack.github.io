@@ -343,6 +343,7 @@ $(function() {
 	/* ==================================================================
 	10.0 Subscription / Contact Form
 	================================================================== */
+	/*
 	$("[type='submit']").on('click submit', function(event) {
 		var formEl = $(this).closest("form");
 		var msgLabel = formEl.prevAll(".sven-message:first");
@@ -375,4 +376,5 @@ $(function() {
 		});
 		event.preventDefault();
 	});
+	*/
 });
