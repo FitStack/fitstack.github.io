@@ -687,31 +687,28 @@ Main Page Content
 				<section id="talk-back" class="contact-us"> <!-- ## Start CONTACT US Section ## -->
 					<div class="row">
 						<div class="col-xs-12">
-							<h3>Be the First to Know</h3>
-							<p>We are SvenCreations and we are here to serve!</p>
-							<p class="contact-label sven-message"></p>
-							<form id="contact-form" class="row" action="php/contact.php" method="POST"><!-- %% Start CONTACT FORM %% -->
-								<div class="col-xs-12 col-sm-6">
+							<h3>Join the Fit List</h3>
+							<p>The 2018 Fit Bundle is almost ready to go.</p>
+
+							<!-- Begin MailChimp Signup Form -->
+							<form id="contact-form" class="row" action="http://fitbundle.us15.list-manage.com/subscribe/post?u=cd1d6bc94fae3e7b3adbc9762&amp;id=cb0f4198a4" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+								<div class="col-xs-12">
 									<div class="form-group">
-										<input type="text" id="contName" class="form form-control" placeholder="Your Name..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name...'" name="contName" required="">
-									</div>
-								</div>
-								<div class="col-xs-12 col-sm-6">
-									<div class="form-group">
-										<input type="email" id="contMail" class="form form-control" placeholder="Your Email..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email...'" name="contMail" required="">
+										<input type="email" id="userEmail" class="form form-control required" value="" name="EMAIL" placeholder="Your Email..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email...'" required="">
 									</div>
 								</div>
 								<div class="col-xs-12">
 									<div class="form-group">
-										<textarea id="contMessage" class="form form-control" placeholder="Your Message..." onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Message...'" name="contMessage" required=""></textarea>
+										<button type="submit" id="submit-form" name="subscribe" class="st-btn btn-bordered">Get Notified</button>
 									</div>
 								</div>
-								<div class="col-xs-12">
-									<div class="form-group">
-										<button type="submit" id="contSubmit" class="st-btn btn-bordered">Send Message</button>
-									</div>
-								</div>
-							</form><!-- %% End CONTACT FORM %% -->
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    	<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cd1d6bc94fae3e7b3adbc9762_cb0f4198a4" tabindex="-1" value=""></div>
+							</form>
+							<!--End mc_embed_signup-->
 
 							<div class="addr-details row"><!-- %% Start ADDRESS DETAILS section %% -->
 								<div class="col-xs-12 col-sm-4">
