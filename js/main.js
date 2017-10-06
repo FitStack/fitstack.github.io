@@ -144,7 +144,7 @@ $(function() {
 	/* ==================================================================
 	4.0 Initialize PhotoSwipe Gallery
 	================================================================== */
-	initPhotoSwipeFromDOM('.st-gallery');
+	// initPhotoSwipeFromDOM('.st-gallery');
 
 	/* ==================================================================
 	5.0 Initialize Countdown
