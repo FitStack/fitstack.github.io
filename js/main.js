@@ -280,6 +280,7 @@ $(function() {
 	$('.pl-skip').on('click' , function(ev) {
 		$svenContainer.svenPlugin.pauseTeaser();
 		revealTL.play();
+		$(".splash-page").remove();
 	});
 
 	/* 2.  Play / Pause / Restart Teaser control */
