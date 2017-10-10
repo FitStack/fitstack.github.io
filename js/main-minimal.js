@@ -120,7 +120,7 @@ $(function() {
 	4.0 Initialize Countdown
 	TTBD : Revert to previous version as in Sven
 	================================================================== */
-	$(".st-countdown").countdown("2017/12/01", function(event) {
+	$(".st-countdown").countdown("2018/01/01", function(event) {
 		$(this).text(
 			event.strftime('%D Days %H:%M:%S')
 		);

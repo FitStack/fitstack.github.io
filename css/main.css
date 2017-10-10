@@ -219,6 +219,7 @@ Contrast / Highlight - #EF0D33
 
 .fw600 {
 	font-weight: 600 !important;
+	text-shadow: 0 0 10px black;
 }
 
 .st-btn {

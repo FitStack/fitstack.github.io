@@ -130,11 +130,17 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 
 /* Main Page */
 #intro-content {
-    background: #111517;
+  background: #111517;
 }
 
 #main-content {
-  background: #F5F5F5;
+  /* background: #F5F5F5 url('../../images/local/temp_products.jpg') no-repeat right top;
+  background-size: contain; */
+}
+
+#ambient-bg {
+  /* background: url('../../images/local/temp_products2-left.jpg') no-repeat right top;
+  background-size: cover; */
 }
 
 .text-logo {
@@ -143,6 +149,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
   margin-bottom: 1.2em !important;
   padding: 5px 15px;
   font-weight: bold;
+  font-size: 2.1em;
 }
 
 /* Buttons */
@@ -189,7 +196,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 }
 
 #intro-content::before, .splash-page::before {
-    background-image: url("../../images/local/main-bg.jpg");
+  background-image: url("../../images/local/collage.jpg");
 }
 
 .tf-logo {
