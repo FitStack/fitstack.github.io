@@ -145,11 +145,20 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 
 .text-logo {
   border: 4px solid lightgray;
-  width: fit-content;
+  width: 100%;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 2px;
   margin-bottom: 1.2em !important;
   padding: 5px 15px;
   font-weight: bold;
   font-size: 2.1em;
+}
+
+.text-logo p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 0 !important;
 }
 
 /* Buttons */
