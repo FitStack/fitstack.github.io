@@ -136,6 +136,7 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
 #main-content {
   /* background: #F5F5F5 url('../../images/local/temp_products.jpg') no-repeat right top;
   background-size: contain; */
+  background-color: white;
 }
 
 #ambient-bg {
@@ -143,8 +144,36 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
   background-size: cover; */
 }
 
+.permanent-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+section.red h3 {
+  margin: 0;
+  text-align: center;
+  margin: 0;
+}
+
+section.red h3 span {
+  margin: 0 0.5em;
+}
+
+.skew-container {
+  -ms-transform: skew(-10deg,0deg);
+  -webkit-transform: skew(-10deg,0deg);
+  transform: skew(-10deg,0deg);
+  overflow: hidden;
+}
+.skew-image {
+  /* background-image: url("http://placekitten.com/g/400/200"); */
+  -ms-transform: skew(10deg,0deg);
+  -webkit-transform: skew(10deg,0deg);
+  transform: skew(10deg,0deg);
+  margin-bottom: 1em;
+}
+
 .text-logo {
-  border: 4px solid lightgray;
+  border: 4px solid #EF0D33;
   width: 100%;
   text-align: center;
   text-transform: none;
@@ -155,10 +184,10 @@ Paragraph - #888, Contrast / Highlight(Buttons BG) - #EF0D33
   font-size: 2.1em;
 }
 
-.text-logo p {
-  font-size: 0.8em;
-  font-style: italic;
-  margin-bottom: 0 !important;
+section.red {
+  padding: 15px;
+  margin-bottom: 3em;
+  background-color: #eee;
 }
 
 /* Buttons */
